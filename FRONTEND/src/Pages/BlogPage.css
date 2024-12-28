@@ -1,0 +1,20 @@
+.post-detail-page {
+    padding: 20px;
+  }
+  
+  .post-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .post-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .post-content {
+    white-space: pre-wrap;
+  }
+  

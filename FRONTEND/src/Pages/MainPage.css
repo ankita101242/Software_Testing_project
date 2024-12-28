@@ -1,0 +1,38 @@
+/* MainPage.css */
+.main-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.flex-container {
+  display: flex;
+  flex-grow: 1;
+}
+
+.content-box {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.custom-button {
+  background-color: black;
+  color: white;
+  border: none;
+  margin: 10px 0 0 10px;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-button:hover {
+  background-color: #333;
+  color: white;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
